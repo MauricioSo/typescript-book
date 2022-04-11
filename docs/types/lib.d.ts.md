@@ -12,7 +12,7 @@
 Un archivo de declaración especial `lib.d.ts` es incluido con cada instalación de TypeScript. Este archivo contiene las declaracioens de ambiente para varios constructos comunes de JavaScript que se encuentran presente en los tiempos de ejecución de JavaScript y del DOM.
 
 * Este archivo se incluye automáticametne en el contexto de compilación de un proyecto TypeScript.
-* El objetivo de este archivo es simplificarles el proceso de comenzar a escrbir código JavaScript *con control de tipos*
+* El objetivo de este archivo es simplificarles el proceso de comenzar a escribir código JavaScript *con control de tipos*
 
 Pueden excluir este archivo del contexto de compilación especificando el la bandera de línea de comandos `--noLib` (o `"noLib": true` en `tsconfig.json`).
 
@@ -24,7 +24,7 @@ Como siempre, consideremos ejemplos de este archivo en uso:
 var foo = 123;
 var bar = foo.toString();
 ```
-Este código realiza el chequeo de tipos correctamente *debido a que* la función `toString` se encuetnra definida en `lib.d.ts` para todos los objetos JavaScript. 
+Este código realiza el chequeo de tipos correctamente *debido a que* la función `toString` se encuentra definida en `lib.d.ts` para todos los objetos JavaScript. 
 
 Si usan el mismo ejemplo de código con la opción `noLib`, obtendrán un error de control de tipo:
 
