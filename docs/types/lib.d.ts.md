@@ -36,7 +36,7 @@ Ahora que entienden la importanca de `lib.d.ts`, en que consiste su contenido? E
 
 ### Mirando dentro de `lib.d.ts`
 
-El contendio de `lib.d.ts` consiste principalmente de un montón de declaraciones de *variables*. Por ejemplo, `window`, `document`, `math` y un montón de declaraciones de *interfaces* similares, como `Window` , `Document`, `Math`.
+El contenido de `lib.d.ts` consiste principalmente de un montón de declaraciones de *variables*. Por ejemplo, `window`, `document`, `math` y un montón de declaraciones de *interfaces* similares, como `Window` , `Document`, `Math`.
 
 La forma más simple de leer la documentación y las anotaciones de cosas globales es tipear código que *saben que funciona*. Por ejemplo, `Math.floor`, seguido de F12 (ir a la definición) usando su IDE (VSCode tiene gran soporte para este tipo de acciones).
 
