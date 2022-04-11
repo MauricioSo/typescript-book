@@ -9,7 +9,7 @@
 
 ## `lib.d.ts`
 
-Un archivo de declaración especial `lib.d.ts` es incluido con cada instalación de TypeScript. Este archivo contiene las declaracioens de ambiente para varios constructos comunes de JavaScript que se encuentran presente en los tiempos de ejecución de JavaScript y del DOM.
+Un archivo de declaración especial `lib.d.ts` es incluido con cada instalación de TypeScript. Este archivo contiene las declaraciones de ambiente para varios constructos comunes de JavaScript que se encuentran presente en los tiempos de ejecución de JavaScript y del DOM.
 
 * Este archivo se incluye automáticametne en el contexto de compilación de un proyecto TypeScript.
 * El objetivo de este archivo es simplificarles el proceso de comenzar a escrbir código JavaScript *con control de tipos*
